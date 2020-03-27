@@ -34,14 +34,14 @@ repos_manager.add_repos('local-ivy2', str(Path(Path.home(), ".ivy2", "cache").ab
 repos_manager.add_repos('sonatype',
                         'https://oss.sonatype.org/content/repositories/public/', 'remote', order=2)
 # JCenter
-repos_manager.add_repos('jcenter', 'http://jcenter.bintray.com/', 'remote', order=3)
+repos_manager.add_repos('jcenter', 'https://jcenter.bintray.com/', 'remote', order=3)
 
 # Jitpack for Komoran v3
 repos_manager.add_repos('jitpack.io', 'https://jitpack.io/', 'remote', order=4)
 
 # Maven Central & its mirror
-repos_manager.add_repos('central1', 'http://repo1.maven.org/maven2/', 'remote', order=5)
-repos_manager.add_repos('central2', 'http://central.maven.org/maven2/', 'remote', order=6)
+repos_manager.add_repos('central1', 'https://repo1.maven.org/maven2/', 'remote', order=5)
+repos_manager.add_repos('central2', 'https://central.maven.org/maven2/', 'remote', order=6)
 
 
 # JIP 코드 참조하여 변경함.
